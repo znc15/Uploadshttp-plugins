@@ -1,0 +1,17 @@
+api-version: 1.13
+name: UploadsHttp
+main: com.littlesheep.uploadshttp.Main
+version: 1.0.0
+author: YangXiaoMian
+description: 附加插件
+
+commands:
+  uploadshttp:
+    description: 重新加载配置并重启 HTTP 服务器
+    usage: /uploadshttp reload
+    permission: uploadshttp.reload
+
+permissions:
+  uploadshttp.reload:
+    description: 允许重新加载配置并重启 HTTP 服务器的权限
+    default: op
