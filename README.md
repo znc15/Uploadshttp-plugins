@@ -7,6 +7,7 @@
 - 适用于Purpur,Sprigot类端
 
 ### 使用方法
+- 需要前置Luckperms插件，且版本大于5.4
 - 把插件放在plugins目录
 - 启动服务器
 - 配置IP和端口
